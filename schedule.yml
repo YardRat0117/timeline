@@ -1,19 +1,31 @@
-# schedule.yaml
-- title: 入职培训
-  start: 2025-11-25
-  end: 2025-11-26
-  group: onboarding
-  status: done
+# schedule.yml
 
-- title: 项目 A 分析
-  start: 2025-11-26
-  end: 2025-11-30
-  group: projectA
-  status: active
+- group: onboarding
+  steps:
+    - title: 入职培训
+      start: 2025-11-25
+      end: 2025-11-26
+      status: done
+    - title: 系统账户创建
+      start: 2025-11-26
+      end: 2025-11-27
+      status: done
 
-- title: 项目 B 开发
-  start: 2025-12-01
-  end: null
-  group: projectB
-  status: pending
+- group: projectA
+  steps:
+    - title: 项目分析
+      start: 2025-11-26
+      end: 2025-11-30
+      status: active
+    - title: 设计方案
+      start: 2025-12-01
+      end: 2025-12-03
+      status: pending
+
+- group: projectB
+  steps:
+    - title: 开发阶段
+      start: 2025-12-01
+      end: null
+      status: pending
 
