@@ -1,0 +1,19 @@
+# schedule.yaml
+- title: 入职培训
+  start: 2025-11-25
+  end: 2025-11-26
+  group: onboarding
+  status: done
+
+- title: 项目 A 分析
+  start: 2025-11-26
+  end: 2025-11-30
+  group: projectA
+  status: active
+
+- title: 项目 B 开发
+  start: 2025-12-01
+  end: null
+  group: projectB
+  status: pending
+
