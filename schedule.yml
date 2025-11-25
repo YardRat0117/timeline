@@ -28,16 +28,3 @@
       start: 2025-12-01
       end: null
       status: pending
-
-- group: onboarding
-  steps:
-    - title: 入职培训
-      start: 2025-11-25
-      end: 2025-11-26
-      status: done
-    - title: 系统账户创建
-      start: 2025-11-26
-      end: 2025-11-27
-      status: done
-
-
