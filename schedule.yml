@@ -2,9 +2,14 @@
 
 - group: Project
   steps:
-    - title: Foxbox (v0.6 dev)
+    - title: Foxbox (v0.6.* dev)
       start: 2025-09-28
       end: 2025-10-28
+      status: done
+
+    - title: Foxbox (v0.7.0 refactor)
+      start: 2025-12-22
+      end: 2025-12-23
       status: done
 
 - group: Intern
